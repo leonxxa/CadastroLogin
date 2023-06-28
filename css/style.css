@@ -1,0 +1,103 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: lightgray;
+}
+
+.container{
+    min-width: 500px;
+    text-align: center;   
+}
+
+.form{
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 250px;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 60px;
+    margin-top: 36px;
+    box-shadow: 10px 30px 30px 0 rgb(0 0 0 / 40%);
+    border-radius: 70px;
+    box-sizing: border-box;
+
+}
+
+div a{
+    margin-top: 10px;
+    color: #fff;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.esq,.cad{
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px 4px rgb(0 0 0 / 50%);
+    opacity: 1.0;
+}
+
+
+.form-control{
+    border: 15px;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: thistle;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+.form-control{
+    width: 100%;
+}
+
+input[type=submit]{
+    border: 2px;
+    border-radius: 20px;
+    width: 30%;
+    margin-top: 30px;
+    padding: 12px;
+    background-color: teal;
+    color: white;
+    font-weight: 700;
+    
+}
+
+label{
+    font-size: 22px;
+    margin: 3px;
+    text-align: left;
+    color: lightgray;
+}
+
+img{
+    width: 30%;
+    margin-top: 0;
+}
+
+#submit:hover{
+    background-color: seagreen;
+    color: #fff;
+}
+
+.esq:hover{
+    background-color: tomato;
+    color: #fff;
+}
+
+.cad:hover{
+    background-color: forestgreen;
+    color: #fff;
+}
